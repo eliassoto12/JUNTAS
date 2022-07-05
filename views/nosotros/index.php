@@ -9,6 +9,7 @@
     <title>Nosotros</title>
     <link rel="stylesheet" href="<?=URL?>public/css/normalize.css">
     <link rel="stylesheet"  href="public/css/nosotros.css">
+    <link rel="stylesheet" href="public/css/csswasap.css" >
     <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -74,7 +75,7 @@
     </div>
     
     </main>
-
+    <?php require_once("views/layouts/logowasap.php") ?>
     <?php require_once("views/layouts/footer.php") ?>
 </body>
 </html>

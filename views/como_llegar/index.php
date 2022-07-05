@@ -8,6 +8,7 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="description" content="Ubicanos en Urb. Alameda la rivera Mz F Lt 30, Ate 15001. Siguenos en nuestras redes sociales: Facebook, Instagram, TikTok">
     <link rel="stylesheet" href="<?=URL?>public/css/presupuesto.css">
+    <link rel="stylesheet" href="public/css/csswasap_copy.css" >
     <title>Presupuesto</title>
     
     <?php require_once("views/layouts/enlaces.php") ?>
@@ -49,6 +50,7 @@
             <!-- </figure> -->
         </div>
     </section>
+    <?php require_once("views/layouts/logowasap.php") ?>
     <?php require_once("views/layouts/footer.php") ?>
 </body>
 
